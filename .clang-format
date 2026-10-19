@@ -1,0 +1,15 @@
+BasedOnStyle: Chromium
+ContinuationIndentWidth: 2
+AlignAfterOpenBracket: BlockIndent
+PenaltyReturnTypeOnItsOwnLine: 1000
+SortIncludes:
+    Enabled: true
+    IgnoreCase: true
+IncludeBlocks: Regroup
+IncludeCategories:
+- Regex: '^".+"'
+  Priority: 1
+- Regex: '.+\.h(pp)?'
+  Priority: 2
+- Regex: '.+'
+  Priority: 3
